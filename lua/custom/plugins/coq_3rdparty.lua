@@ -1,7 +1,7 @@
 return {
-  "ms-jpq/coq.thirdparty",
-  branch = "3p",
-  dependencies = {
-    "ms-jpq/coq_nvim"
-  }
+--  "ms-jpq/coq.thirdparty",
+--  branch = "3p",
+--  dependencies = {
+--    "ms-jpq/coq_nvim"
+--  }
 }
