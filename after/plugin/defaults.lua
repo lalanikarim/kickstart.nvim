@@ -19,7 +19,7 @@ vim.cmd([[
   set nobackup
 ]])
 
-vim.opt.undodir = "~/.vim/undodir"
+vim.opt.undodir = vim.fn.expand("$HOME/.vim/undodir")
 vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.cursorline = true
