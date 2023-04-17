@@ -42,6 +42,7 @@ vim.cmd([[
 ]])
 
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
+vim.keymap.set('n', '<leader>fb', vim.lsp.buf.format, { desc = '[f]ormat [b]uffer' })
 
 vim.cmd([[
 if has('termguicolors')

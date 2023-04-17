@@ -7,6 +7,6 @@ let g:coq_settings = { 'auto_start': v:true }
 ]])
 
 return {
-  "ms-jpq/coq_nvim",
-  branch = "coq"
+--  "ms-jpq/coq_nvim",
+--  branch = "coq"
 }
