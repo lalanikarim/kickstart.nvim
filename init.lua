@@ -140,6 +140,7 @@ require('lazy').setup({
     opts = {
       char = '┊',
       show_trailing_blankline_indent = false,
+      version = "2.20.8",
     },
   },
 
