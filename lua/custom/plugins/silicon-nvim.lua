@@ -1,6 +1,6 @@
 return {
   'krivahtoo/silicon.nvim',
-  build = './install.sh build',
+  build = './install.sh',
   config = function()
     require('silicon').setup({
       -- Output configuration for the saved image
