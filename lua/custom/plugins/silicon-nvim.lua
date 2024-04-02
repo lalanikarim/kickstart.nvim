@@ -11,7 +11,7 @@ return {
         -- clipboard = true,
         -- (string) Where to save images, defaults to the current directory.
         --  e.g. /home/user/Pictures
-        path = os.getenv("HOME") .. "/Pictures/Silicon/",
+        path = os.getenv("HOME") .. "/Pictures/Screenshots/Silicon/",
         -- (string) The filename format to use. Can include placeholders for date and time.
         -- https://time-rs.github.io/book/api/format-description.html#components
         format = "silicon_[year][month][day]_[hour][minute][second].png",
